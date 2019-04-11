@@ -6,6 +6,10 @@
     <div class="container">
       <router-view></router-view>
     </div>
+    <br>
+    <div class="constainer">
+      <!-- <routrt-link to = ''></routrt-link> -->
+    </div>
   </div>
 </template>
 
