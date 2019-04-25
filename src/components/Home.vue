@@ -1,5 +1,12 @@
 <template>
     <div>
+        <div class="raw">
+            <div id = 'home' class="dol-sm-12 text-center">
+                <div class="background">
+                    <h1>欢迎大家</h1>
+                </div>
+            </div>
+        </div>
         <h1>Home</h1>
         <button @click="goToMenu" class = 'btn btn-success'>Let's back</button>
         <router-view></router-view>

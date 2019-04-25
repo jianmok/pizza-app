@@ -6,8 +6,10 @@
             <p class="card-text">760612141@qq.com</p>
         </div>
          <ul class = 'navbar-nav'>
-            <router-link  to='/personName'>联系人</router-link>
-            <router-link  to='/phone'>电话</router-link>
+             <p class="card-text">   
+                 <router-link  to='/personName'>联系人</router-link>
+                <router-link  to='/phone'>电话</router-link>
+            </p>
             <router-view></router-view>
         </ul>
     </div>
