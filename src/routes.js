@@ -16,12 +16,12 @@ import PersonName from './components/about/contact/PersonName'
 import Phone from './components/about/contact/Phone'
 
 export const routes = [
-    {path:'/', name:'homeLink',component:Home
-    // components:{
-    //   default: Home
-    //   // 'orderingGuide': OrderingGuide,
-    //   // 'delivery':Delivery
-    // }
+    {path:'/', name:'homeLink',component:Home,
+    components:{
+      default: Home,
+      'orderingGuide': OrderingGuide,
+      // 'delivery':Delivery
+    }
   },
     {path:'/menu',name:'menuLink',component:Menu},
     {path:'/admin',name:'adminLink',component:Admin
