@@ -19,7 +19,10 @@ import Header from './components/Header';
 export default {
   components:{
     'app-Header': Header
-  }
+  },
+  // created(){
+  //   fetch("http://www.thenewstep.cn/")
+  // }
 }
 </script>
 
